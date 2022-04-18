@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import { observer } from "mobx-react-lite";
+import { observer } from "mobx-react";
 import { createStopwatchStore } from "./stopwatch-store";
 
 export const Stopwatch = observer(() => {
